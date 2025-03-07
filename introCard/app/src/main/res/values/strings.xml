@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">introCard</string>
+    <string name="salute">Hello, my name is Adrian!</string>
+    <string name="profession">I am an Android developer</string>
+    <string name="phoneNumber">833 154 2435</string>
+    <string name="email">luisAdrian@hotmail.com</string>
+    <string name="direction">Valle del Cañada, Cd. Gral. Escobedo, NL, MX</string>
+    <string name="facebook">luis adrian</string>
+</resources>
