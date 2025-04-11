@@ -31,6 +31,7 @@ class MainActivity : ComponentActivity() {
     }
 }
 
+//la documentacion explica esta funcion
 @Composable fun DiceWithButtonAndImage(modifier: Modifier = Modifier) {
     var result by remember { mutableStateOf( 1) }
     val imageResource = when(result) {
@@ -47,7 +48,7 @@ class MainActivity : ComponentActivity() {
     }
 }
 
-@Preview @Composable fun DiceRollerApp() {
+@Preview @Composable fun DiceRollerApp() {                                                                                           //esta es la preview
     DiceWithButtonAndImage(modifier = Modifier.fillMaxSize().wrapContentSize(Alignment.Center))
 }
 

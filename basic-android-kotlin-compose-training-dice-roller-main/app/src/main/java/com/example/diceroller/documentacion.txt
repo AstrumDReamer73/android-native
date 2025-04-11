@@ -1,0 +1,15 @@
+la funcion DiceWithButtonAndImage es la funcion que declara
+la interfaz, esta funcion tiene una variable llamada resultado
+que es la que determina la imagen a cargar, al ser remember compose
+guarda su estado y segun ese estado carga la imagen
+
+el when hace que segun el resultado, seleccione el valor del
+drawable, ese hace despues se pasa al painter de la imagen y el
+programa pinta esa imagen en la pantalla del celular
+
+el column es el container que guarda tanto el espacio de la imagen
+y el boton para volver a lanzar el dado
+
+el boton tiene el metodo onClick hace que el resultado cambie
+aleatoriamente entre un valor dentro de un rango de 1 a 6
+(las caras del dado), asi como el texto que dice lanzar
